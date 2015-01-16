@@ -1,0 +1,1015 @@
+@font-face {
+    font-family: "Kreon";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Kreon Light"), local("Kreon-Light"), url("http://themes.googleusercontent.com/static/fonts/kreon/v6/foDwQzChAOJL0-zU6ynhJ_esZW2xOQ-xsNqO47m55DA.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Open Sans"), local("OpenSans"), url("http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url("http://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Open Sans Bold"), local("OpenSans-Bold"), url("http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Open Sans Cond Light"), local("OpenSans-CondensedLight"), url("http://themes.googleusercontent.com/static/fonts/opensanscondensed/v6/gk5FxslNkTTHtojXrkp-xF1YPouZEKgzpqZW9wN-3Ek.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Open Sans Condensed Bold"), local("OpenSans-CondensedBold"), url("http://themes.googleusercontent.com/static/fonts/opensanscondensed/v6/gk5FxslNkTTHtojXrkp-xONSK5BxN3NFS4EJkViHIqo.woff") format("woff");
+}
+@font-face {
+    font-family: "Open Sans Condensed";
+    font-style: italic;
+    font-weight: 300;
+    src: local("Open Sans Cond Light Italic"), local("OpenSans-CondensedLightItalic"), url("http://themes.googleusercontent.com/static/fonts/opensanscondensed/v6/jIXlqT1WKafUSwj6s9AzV6XnXbwdDC8wAz6IIzmCDUP3rGVtsTkPsbDajuO5ueQw.woff") format("woff");
+}
+
+
+#ps_dental_admin * {
+	margin:0;
+	padding:0;
+}
+#ps_dental_admin ul, #ps_dental_admin ol, #ps_dental_admin dl, #ps_dental_admin p, #ps_dental_admin h1, #ps_dental_admin h2, #ps_dental_admin h3, #ps_dental_admin h4, #ps_dental_admin h5, #ps_dental_admin h6, #ps_dental_admin address, #ps_dental_admin form, #ps_dental_admin table, #ps_dental_admin blockquote, #ps_dental_admin applet, #ps_dental_admin embed, #ps_dental_admin object, #ps_dental_admin iframe, #ps_dental_admin frameset{margin:0 0 14px;}
+#ps_dental_admin div, 
+#ps_dental_admin span, #ps_dental_admin applet, #ps_dental_admin embed, #ps_dental_admin object, 
+#ps_dental_admin iframe, 
+#ps_dental_admin frameset,
+#ps_dental_admin p, #ps_dental_admin q, #ps_dental_admin blockquote, #ps_dental_admin sub, #ps_dental_admin sup, #ps_dental_admin a, #ps_dental_admin abbr, #ps_dental_admin acronym, #ps_dental_admin font, 
+#ps_dental_admin img, #ps_dental_admin small, #ps_dental_admin center,
+#ps_dental_admin h1, 
+#ps_dental_admin h2, 
+#ps_dental_admin h3, 
+#ps_dental_admin h4, 
+#ps_dental_admin h5, 
+#ps_dental_admin h6, #ps_dental_admin b, #ps_dental_admin strong, #ps_dental_admin big, #ps_dental_admin u, #ps_dental_admin ins,
+#ps_dental_admin i, #ps_dental_admin cite, #ps_dental_admin em, #ps_dental_admin var, #ps_dental_admin dfn, #ps_dental_admin address, #ps_dental_admin s, #ps_dental_admin strike, #ps_dental_admin del,
+#ps_dental_admin dl, #ps_dental_admin dt, #ps_dental_admin dd, #ps_dental_admin ol, #ps_dental_admin ul, #ps_dental_admin li, #ps_dental_admin pre, #ps_dental_admin code, #ps_dental_admin kbd, #ps_dental_admin samp, #ps_dental_admin tt,
+#ps_dental_admin fieldset, #ps_dental_admin legend, #ps_dental_admin form, #ps_dental_admin label, #ps_dental_admin table, #ps_dental_admin caption, #ps_dental_admin tbody, #ps_dental_admin tfoot, #ps_dental_admin thead, #ps_dental_admin tr, #ps_dental_admin th, #ps_dental_admin td,
+#ps_dental_admin article, #ps_dental_admin aside, #ps_dental_admin canvas, #ps_dental_admin details, #ps_dental_admin figcaption, #ps_dental_admin figure, #ps_dental_admin footer, #ps_dental_admin header,
+#ps_dental_admin hgroup, #ps_dental_admin menu, #ps_dental_admin nav, #ps_dental_admin section, #ps_dental_admin summary, #ps_dental_admin time, #ps_dental_admin mark, #ps_dental_admin audio,#ps_dental_admin video{
+	border:0;
+	background:none;
+}
+#ps_dental_admin a {
+	text-decoration: none;
+	color: #000;
+}
+#ps_dental_admin a:hover {text-decoration:underline;}
+#ps_dental_admin input, #ps_dental_admin textarea{
+	font:100% Arial, Helvetica, sans-serif;
+	vertical-align:middle;
+	color:#000;
+	overflow: auto;
+	
+}
+#ps_dental_admin input{
+	font:100% Arial, Helvetica, sans-serif;
+	height:27px;
+	padding:3px;
+	width:100%;
+}
+#ps_dental_admin select 
+{
+	/*font:100% Arial, Helvetica, sans-serif;*/
+	font:13px/16px 'Open Sans',Arial,Helvetica,sans-serif;
+	vertical-align:middle;
+	color:#666666;
+	overflow: auto;
+	height:27px;
+	padding:3px;
+	width:100%;
+}
+#ps_dental_admin label{vertical-align:middle;}
+#ps_dental_admin button, #ps_dental_admin input{
+	width: auto;
+	overflow: visible;
+}
+#ps_dental_admin button[type=submit]:hover,
+#ps_dental_admin input[type=reset]:hover,
+#ps_dental_admin input[type=submit]:hover {cursor:pointer;}
+#ps_dental_admin h1, #ps_dental_admin h2, #ps_dental_admin h3, #ps_dental_admin h4, #ps_dental_admin h5, #ps_dental_admin h6, #ps_dental_admin b, #ps_dental_admin strong, #ps_dental_admin th{font-weight:700;}
+#ps_dental_admin h1{font-size:200%;}
+#ps_dental_admin h2{font-size:150%;}
+#ps_dental_admin h3{font-size:120%;}
+#ps_dental_admin h4{font-size:110%;}
+#ps_dental_admin h5{font-size:100%;}
+#ps_dental_admin h6{font-size:90%;}
+#ps_dental_admin i, #ps_dental_admin cite, #ps_dental_admin em, #ps_dental_admin var, #ps_dental_admin dfn, #ps_dental_admin address{font-style:italic;}
+#ps_dental_admin u, #ps_dental_admin ins {text-decoration: underline;}
+#ps_dental_admin s, #ps_dental_admin strike, #ps_dental_admin del {text-decoration: line-through;}
+#ps_dental_admin blockquote, #ps_dental_admin q {
+	quotes: none;
+}
+#ps_dental_admin blockquote:before, #ps_dental_admin blockquote:after,
+#ps_dental_admin q:before, #ps_dental_admin q:after {
+	content: '';
+	content: none;
+}
+#ps_dental_admin table, #ps_dental_admin caption, #ps_dental_admin tbody, #ps_dental_admin tfoot, #ps_dental_admin thead, #ps_dental_admin tr, #ps_dental_admin th, #ps_dental_admin td{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#ps_dental_admin th, #ps_dental_admin td{
+	border:1px solid #ccc;
+	padding:3px 7px;
+	text-align:left;
+	vertical-align:top;
+}
+#ps_dental_admin th{
+	border-color:#999;
+	text-align:center;
+	vertical-align:middle;
+}
+#ps_dental_admin ul{margin-left:1px;}
+#ps_dental_admin ul li, #ps_dental_admin ol li{list-style-position:inside;}
+#ps_dental_admin ul li{list-style-type:disc;}
+#ps_dental_admin {
+	margin: 0;
+	color: #666;
+	font: 700 14px/1.21 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+	background: #d3e9f7;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust: none;
+	min-width:320px;
+}
+#ps_dental_admin header,#ps_dental_admin footer,#ps_dental_admin article,#ps_dental_admin section,#ps_dental_admin hgroup,#ps_dental_admin nav,#ps_dental_admin figure {display: block;}
+#ps_dental_admin figure {
+	margin:0;
+	padding:0;
+}
+#ps_dental_admin button::-moz-focus-inner,
+#ps_dental_admin [type="submit"]::-moz-focus-inner,
+#ps_dental_admin [type="button"]::-moz-focus-inner {
+	padding:0;
+	border:0;
+}
+#ps_dental_admin input[type=text],
+#ps_dental_admin textarea,
+#ps_dental_admin input[type=submit]{
+	-webkit-border-radius:0;
+	-webkit-appearance:none;
+}
+#ps_dental_admin .alignleft{
+	float:left;
+	margin:0 20px 0 0;
+}
+#ps_dental_admin .alignright{
+	float:right;
+	margin:0 0 0 20px;
+}
+#ps_dental_admin .aligncenter{text-align:center;}
+#ps_dental_admin img.aligncenter {
+	display: block;
+	margin: 0 auto;
+}
+#ps_dental_admin .container{width:100%;}
+#ps_dental_admin .container:after{
+	content:"";
+	clear:both;
+	display:block;
+}
+#ps_dental_admin #wrapper {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	background: url(data:image/gif;base64,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) repeat-x;
+	min-height: 125px;
+}
+#ps_dental_admin #header {
+	position: relative;
+	z-index: 20;
+	padding: 4px 0 0;
+	min-height: 54px;
+}
+#ps_dental_admin #header .panel {
+	position: relative;
+	min-height: 78px;
+	padding: 0 0 50px;
+}
+#ps_dental_admin .content-holder:after {
+	content: '';
+	display:table;
+	clear: both;
+}
+#ps_dental_admin .content-holder {
+	position: relative;
+	max-width: 1000px;
+	padding: 0 7px;
+	/*margin: 0 auto;*/
+}
+#ps_dental_admin #main {padding: 10px 0 5px;padding:20px 20px 50px 20px;}
+#ps_dental_admin #main h1 {
+	color:#074974;
+	font:300 36px/46px "Kreon", TimesNewRoman,'Times New Roman',Times,Baskerville,Georgia,serif;
+	margin-bottom:10px;
+}
+#ps_dental_admin .content-block .heading{
+	margin:0 0 0 -18px;
+	overflow:hidden;
+}
+#ps_dental_admin .block .heading h2,
+#ps_dental_admin .block .heading h3,
+#ps_dental_admin .aside .block .heading h2,
+#ps_dental_admin .aside .block .heading h3,
+#ps_dental_admin #main .block-in .heading h2,
+#ps_dental_admin #main .content-block .heading h2,
+#ps_dental_admin .info-widget .heading h2,
+#ps_dental_admin .main-box .heading h2,
+#ps_dental_admin .aside .heading h2,
+#ps_dental_admin .items-section .heading h2,
+#ps_dental_admin .profile-block .heading h2 {
+	display: inline-block;
+	vertical-align: top;
+	background: #9ec711;
+	color: #fff;
+	font:bold 16px/18px 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+	min-height: 18px;
+	padding:2px 9px 3px 20px;
+}
+#ps_dental_admin .list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font: 13px/16px 'Open Sans', Arial, Helvetica, sans-serif;
+}
+#ps_dental_admin .list > li {
+	list-style: none;
+	margin: 6px 0 0;
+	padding: 0 4px 0 0;
+}
+#ps_dental_admin .list > li:first-child {margin-top: 0;}
+#ps_dental_admin .list a {color: #11a4fd;}
+#ps_dental_admin .main-box.green .tab-area{margin:0 -20px -10px;}
+#ps_dental_admin .tab-area {
+	background:#fff;
+	display:table-cell;
+	border:10px solid #e2efb8;
+	overflow:hidden;
+}
+#ps_dental_admin .tab-area .holder {
+	overflow:hidden;
+	box-shadow:0 -1px 0 #e2efb8;
+	-moz-box-shadow:0 -1px 0 #e2efb8;
+	-webkit-box-shadow:0 -1px 0 #e2efb8;
+}
+#ps_dental_admin .tabset{
+	margin:0 -2% 0 0;
+	width:102%;
+	background: #d9d9d9 url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q5ZDlkOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiMmIyYjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #d9d9d9 0%, #b2b2b2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d9d9d9), color-stop(100%,#b2b2b2));
+	background: -webkit-linear-gradient(top,  #d9d9d9 0%,#b2b2b2 100%);
+	background: -o-linear-gradient(top,  #d9d9d9 0%,#b2b2b2 100%);
+	background: -ms-linear-gradient(top,  #d9d9d9 0%,#b2b2b2 100%);
+	background: linear-gradient(to bottom,  #d9d9d9 0%,#b2b2b2 100%);
+	display:table;
+	table-layout:fixed;
+}
+#ps_dental_admin .tabset li {
+	list-style:none;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	display:table-cell;
+	vertical-align:top;
+}
+#ps_dental_admin .tabset li:first-child a {border:none;}
+#ps_dental_admin .tabset li a {
+	color:#585858;
+	display:block;
+	padding:6px 5px 12px 19px;
+	font:15px/20px "Open Sans Condensed", Arial, Helvetica, sans-serif;
+	border-left:1px solid #8f8f8f;
+}
+#ps_dental_admin .tabset li a.active {
+	border:none;
+	margin:-7px -1px -2px 0;
+	background:#fff;
+	padding:12px 19px 15px;
+	position:relative;
+	color:#637e0b;
+	box-shadow:3px 3px 3px rgba(0,0,0,0.3);
+	-moz-box-shadow:3px 3px 3px rgba(0,0,0,0.3);
+	-webkit-box-shadow:3px 3px 3px rgba(0,0,0,0.3);
+}
+#ps_dental_admin .tabset li a:hover {text-decoration:none;}
+#ps_dental_admin .tabset-holder {
+	padding:7px 0 1px;
+	overflow:hidden;
+	margin-bottom:-1px;
+	background:#e2efb8;
+	width:100%;
+}
+#ps_dental_admin .tab-content {
+	border-top:1px solid #cdcdcd;
+	background:#fff;
+	box-shadow:0 -3px 5px rgba(0,0,0,0.4);
+	-moz-box-shadow:0 -3px 5px rgba(0,0,0,0.4);
+	-webkit-box-shadow:0 -3px 5px rgba(0,0,0,0.4);
+	padding:15px 19px 17px;
+	font:13px/24px "Open Sans", Arial, Helvetica, sans-serif;
+}
+#ps_dental_admin .tab-content h3 {
+	font:bold 14px/26px "Open Sans", Arial, Helvetica, sans-serif;
+	margin:0;
+}
+#ps_dental_admin .tab-content p {margin-bottom:22px;}
+#ps_dental_admin .tab-content ul {
+	margin-bottom:22px;
+}
+#ps_dental_admin .tab-content li {list-style:none;}
+#ps_dental_admin .tab-content .twocol {
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	column-count:2;
+	-webkit-column-gap:30px;
+	-moz-column-gap:30px;
+	column-gap:30px;
+	width:81%;
+}
+#ps_dental_admin #twocolumns {
+	width:100%;
+	margin-bottom:0;
+}
+#ps_dental_admin #twocolumns:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+#ps_dental_admin .content-box{
+	float:left;
+	width:64.3%;
+	background:#fff;
+	font:13px/20px "Open Sans", Arial, Helvetica, sans-serif;
+	border-top:5px solid #d3e9f7;
+}
+#ps_dental_admin .main-box .tab-area,
+#ps_dental_admin .content-box .tab-area{display:block;}
+#ps_dental_admin #main .content-block{
+	float:left;
+	width:64.3%;
+	background:#fff;
+	font:13px/20px "Open Sans", Arial, Helvetica, sans-serif;
+	border-top:6px solid #d3e9f7;
+}
+#ps_dental_admin #main .content-block:first-child{border:none;}
+#ps_dental_admin #main .content-block a {color:#11a4fd;}
+#ps_dental_admin #main .content-block p {margin-bottom:20px;}
+#ps_dental_admin #main .content-block .inner{padding:15px 18px 12px;}
+#ps_dental_admin #main .content-block .inner:after{
+	content:"";
+	clear:both;
+	display:block;
+}
+#ps_dental_admin .content-block .text-block{overflow:hidden;}
+#ps_dental_admin #main .content-block h2 {
+	font:bold 25px/29px "Open Sans Condensed", Arial, Helvetica, sans-serif;
+	color:#000;
+	margin-bottom:19px;
+}
+#ps_dental_admin  #main .content-block h3 {
+	font:bold 18px/28px "Open Sans Condensed", Arial, Helvetica, sans-serif;
+	color:#000;
+	padding:14px 0 18px;
+	margin:0;
+}
+#ps_dental_admin  #main .content-block ul {margin:0 0 20px 9px;}
+#ps_dental_admin #main .content-block li {
+	list-style:none;
+	padding:0 0 0 12px;
+	position:relative;
+}
+#ps_dental_admin #main .content-block ul li:before {
+	content:"";
+	width:3px;
+	height:3px;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	position:absolute;
+	top:9px;
+	left:0;
+	background:#676767;
+}
+#ps_dental_admin .block .video-holder{margin:0 0 10px;}
+#ps_dental_admin .content-block .video-holder {
+	margin-bottom:30px;
+	overflow:hidden;
+}
+#ps_dental_admin .block .video-holder img,
+#ps_dental_admin .content-block .video-holder img{
+	width:100%;
+	height:auto;
+	vertical-align:top;
+}
+#ps_dental_admin .content-block .video-holder.layuot{
+	float:left;
+	margin:0 20px 10px 0;
+	width:58%;
+	padding:4px 0 0;
+}
+#ps_dental_admin .main-box .text-box{
+	overflow:hidden;
+	font-size:17px;
+	line-height:22px;
+	padding:10px 0 0;
+}
+#ps_dental_admin .main-box .text-box p{margin:0;}
+#ps_dental_admin .content-block .text-box{overflow:hidden;}
+#ps_dental_admin #sidebar {
+	float:right;
+	width:35.3%;
+	background:#fff;
+	padding-bottom:9999px;
+	margin-bottom:-9999px;
+}
+#ps_dental_admin .column-layout #sidebar{
+	margin-bottom:0;
+	padding-bottom:0;
+}
+#ps_dental_admin .section-box .block,
+#ps_dental_admin .aside .block,
+#ps_dental_admin #sidebar .block{
+	border-top:6px solid #d3e9f7;
+	padding:17px 27px 10px 20px;
+	font:13px/20px "Open Sans", Arial, Helvetica, sans-serif;
+}
+#ps_dental_admin .section-box .block:after,
+#ps_dental_admin .aside .block:after,
+#ps_dental_admin #sidebar .block:after{
+	content:"";
+	clear:both;
+	display:block;
+}
+#ps_dental_admin .section-box .block.green,
+#ps_dental_admin .aside .block.green,
+#ps_dental_admin #sidebar .block.green{
+	background:#9ec711;
+	color:#fff;
+}
+#ps_dental_admin .section-box .block:first-child,
+#ps_dental_admin .aside .block:first-child,
+#ps_dental_admin #sidebar .block:first-child{border:none;}
+#ps_dental_admin .section-box .block.bg,
+#ps_dental_admin .aside .block.bg,
+#ps_dental_admin #sidebar .block.bg{background:#d3e9f7;}
+#ps_dental_admin #sidebar h3 {
+	color:#000;
+	font:bold 16px/22px "Open Sans Condensed", Arial, Helvetica, sans-serif;
+	margin-bottom:19px;
+}
+#ps_dental_admin #sidebar .head-title,
+#ps_dental_admin .aside .head{
+	font:26px/32px "Open Sans", Arial, Helvetica, sans-serif;
+	color:#074974;
+	margin-bottom:15px;
+}
+#ps_dental_admin .aside .head-title,
+#ps_dental_admin #sidebar .head-title{
+	font:bold 19px/24px "Open Sans Condensed", Arial, Helvetica, sans-serif;
+	margin-bottom:10px;
+}
+#ps_dental_admin .aside .block.green .head-title,
+#ps_dental_admin #sidebar .block.green .head-title{color:#fff;}
+#ps_dental_admin #sidebar h4 {
+	font:17px/22px "Open Sans", Arial, Helvetica, sans-serif;
+	margin-bottom:20px;
+}
+#ps_dental_admin .section-box .block .heading,
+#ps_dental_admin .aside .block .heading,
+#ps_dental_admin #sidebar .block .heading {
+	margin:3px 0 15px -20px;
+	overflow:hidden;
+}
+#ps_dental_admin .section-box .block .heading h2,
+#ps_dental_admin .section-box .block .heading h3,
+#ps_dental_admin .aside .block .heading h2,
+#ps_dental_admin .aside .block .heading h3,
+#ps_dental_admin #sidebar .block .heading h2,
+#ps_dental_admin #sidebar .block .heading h3 {
+	background:#9ec711;
+	color:#fff;
+	padding:0 7px 2px 21px;
+	float:left;
+	margin:0;
+}
+#ps_dental_admin .section-box .block.green .heading h2,
+#ps_dental_admin .section-box .block.green .heading h3,
+#ps_dental_admin .aside .block.green .heading h2,
+#ps_dental_admin .aside .block.green .heading h3,
+#ps_dental_admin #sidebar .block.green .heading h2,
+#ps_dental_admin #sidebar .block.green .heading h3{
+	background:#fff;
+	color:#000;
+}
+#ps_dental_admin .section-box .block a,
+#ps_dental_admin .aside .block a,
+#ps_dental_admin #sidebar .block a{color:#11a4fd;}
+#ps_dental_admin .aside .block .btn,
+#ps_dental_admin #sidebar .block .btn {margin-left:2px;}
+#ps_dental_admin .block .ad-holder{margin:10px 0;}
+
+#ps_dental_admin .block .ad-holder img{
+	/*width:100%;*/
+	height:auto;
+	display:inline-block;
+}
+
+#ps_dental_admin .aside {
+	float:right;
+	width:32%;
+	margin:0 0 5px;
+}
+#ps_dental_admin .main-box {
+	float:left;
+	background:#fff;
+	padding:20px;
+	width:67.5%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0 0 5px;
+	font:13px/20px "Open Sans", Arial, Helvetica, Verdana, sans-serif;
+}
+#ps_dental_admin .main-box.green{background:#e2efb8;}
+#ps_dental_admin .main-box img.image{
+	float:left;
+	margin:4px 20px 10px 0;
+	width:52%;
+	height:auto;
+}
+#ps_dental_admin .main-box .heading {margin:0 0 28px -20px;}
+#ps_dental_admin .main-box .heading h2 {margin:0;}
+.search-criteria {
+	font-size:14px;
+	line-height:15px;
+}
+#ps_dental_admin .twocolumns-alt .aside,
+#ps_dental_admin .items-section.aside{
+	width:auto;
+	overflow:hidden;
+	float:none;
+	margin:0;
+}
+#ps_dental_admin .items-section.aside{
+	border-bottom:5px solid #d3e9f7;
+}
+#ps_dental_admin .left-block{
+	float:left;
+	width:63.5%;
+	margin-right:5px;
+	background:#fff;
+	padding-bottom:8px;
+}
+#ps_dental_admin .twocolumns-alt .aside.alt{
+	background:#fff;
+}
+#ps_dental_admin .main-risk #twocolumns{margin-bottom:4px;}
+#ps_dental_admin .main-risk .left-block{
+	width:64.2%;
+	padding:0;
+}
+#ps_dental_admin .main-risk .main-box .heading{margin:0 0 0 -20px;}
+#ps_dental_admin .main-risk .left-block .main-box{
+	width:100%;
+	padding:20px 20px 12px;
+	margin:0;
+	border-top:5px solid #d3e9f7;
+}
+#ps_dental_admin .main-risk .left-block .main-box:first-child{border:none;}
+#ps_dental_admin .main-risk .left-block .main-box .bottom-block{margin-bottom:-12px;}
+#ps_dental_admin .block-in .section p{margin-bottom:10px;}
+#ps_dental_admin .btn-holder{overflow:hidden;}
+#ps_dental_admin .section-holder .btn-holder{padding-top:10px;}
+#ps_dental_admin .btn-holder .link{
+	color:#11a4fd;
+	text-decoration:underline;
+	float:left;
+	margin:5px 0 0;
+}
+#ps_dental_admin .btn-holder .link:hover{text-decoration:none;}
+#ps_dental_admin .button{
+	float:right;
+	padding:7px 19px 8px;
+	color:#fff !important;
+	background:#feab00;
+	text-transform:uppercase;
+	font:700 16px/18px 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+	margin:0 0 0 5px;
+}
+#ps_dental_admin .button.arrow{
+	position:relative;
+	margin:0 20px 0 0;
+	height:18px;
+	color:#fff !important;
+	font:700 16px/18px 'Open Sans', Arial, Helvetica, sans-serif;
+	padding:9px 19px 10px;
+	border-radius:0px;
+}
+#ps_dental_admin .button.arrow:after{
+	content:"";
+	position:absolute;
+	right:-20px;
+	top:0;
+	width:20px;
+	height:37px;
+	background: url(../images/sprite.png) no-repeat -420px -180px;
+}
+#ps_dental_admin .button.layout{
+	position:relative;
+	margin:0 18px 0 0;
+	padding:7px 4px 7px 10px;
+	text-transform:none;
+	font:600 13px/18px 'Open Sans', Arial, Helvetica, sans-serif;
+	height:18px;
+	border-radius:0px;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box; /*Firefox 1-3*/
+	-webkit-box-sizing: content-box; /* Safari */	
+}
+#ps_dental_admin .button.layout:after{
+	content:"";
+	position:absolute;
+	right:-18px;
+	top:0;
+	width:18px;
+	height:32px;
+	background: url(../images/sprite.png) no-repeat -422px -183px;
+}
+#ps_dental_admin .step-area{
+	overflow:hidden;
+	padding:8px 0 20px;
+}
+#ps_dental_admin .step-list{
+	margin:0;
+	float:left;
+	border:1px solid #9ec711;
+	font-weight:normal;
+	font-size:16px;
+	line-height:19px;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	background:#fff;
+}
+#ps_dental_admin .step-list li{
+	list-style:outside none;
+	float:left;
+	position:relative;
+}
+#ps_dental_admin .step-list .last{margin:0;}
+#ps_dental_admin .step-list a{
+	display:block;
+	padding:7px 22px 7px 30px;
+	color:#000;
+	position:relative;
+	height:19px;
+}
+#ps_dental_admin .step-list a:after{
+	content:"";
+	position:absolute;
+	right:-17px;
+	top:0;
+	width:17px;
+	height:33px;
+	background: url(../images/sprite.png) no-repeat -420px -235px;
+}
+#ps_dental_admin .step-list .last a:after{display:none;}
+#ps_dental_admin .step-list a:hover{text-decoration:none;}
+#ps_dental_admin .step-list .active a{
+	color:#fff;
+	background:#9ec711;
+	text-decoration:none;
+}
+#ps_dental_admin .step-list .active a:after{background-position:-420px -270px;}
+#ps_dental_admin .main-box .head{
+	font:700 18px/22px 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+	color:#2c2c2c;
+	margin-bottom:26px;
+}
+#ps_dental_admin .form-modules{margin:0;}
+#ps_dental_admin .form-modules .row{
+	width:100%;
+	padding:0 0 23px;
+}
+#ps_dental_admin .form-modules .row.submit{padding-top:41px;}
+#ps_dental_admin .form-modules .row:after{
+	content:"";
+	clear:both;
+	display:block;
+}
+#ps_dental_admin .form-modules .select-area{
+	overflow:hidden;
+	padding:0 0 15px;
+}
+#ps_dental_admin .form-modules select{
+	float:left;
+	margin:9px 20px 0 0;
+	color:#666;
+	width:91px;
+}
+#ps_dental_admin .form-modules .title{
+	overflow:hidden;
+	color:#074974;
+	font:25px/30px 'Open Sans', Arial, Helvetica, sans-serif;
+	margin:0;
+}
+#ps_dental_admin .form-modules input[type=submit] {
+	background:#feab00 url(../images/arrow7.gif) no-repeat 100% 0 ;
+	border:none;
+	color:#fff;
+	float:right;
+	font:600 17px/30px 'Open Sans',Arial,Helvetica,sans-serif;
+	height:34px;
+	min-width:88px;
+	overflow: visible;
+	padding:0 19px 1px 15px;
+	text-transform:uppercase;
+	margin:0 0 -15px 5px;
+	border-radius:0px;
+	box-sizing:border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */	
+}
+#ps_dental_admin .tab-content p,
+.roll p{margin:0;}
+.roll figure{margin:0 0 3px;}
+.roll img{
+	display:block;
+	width:100%;
+	height:auto;
+}
+#ps_dental_admin .content-block .video-holder.layuot{
+		float:none;
+		margin:0 0 15px;
+		width:auto;
+		padding:10px 0 0;
+}
+#ps_dental_admin .content-block .video-holder.layuot{
+		float:left;
+		width:57%;
+		margin:0 20px 10px 0;
+		padding:4px 0 0;
+		overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-info input[type="submit"] {
+	height:auto;
+}
+.errormsg{
+	color:#FF0000;
+}
+#dentresult{
+	color:#11A4FD;
+}
+#plcarea
+{
+	width:100%;
+}
+#Purchased{
+	float:left;
+	width:30%;
+	font-size:14px;
+	margin-top:10px;
+}
+#Purchased .textp{
+	margin-left:30px;
+	font: 23px/28px 'Open Sans',Arial,Helvetica,sans-serif;
+}
+#dayremain{
+	font-size:14px;
+	
+}
+#dayremain p{
+	margin-top:10px;
+}
+#dayremain .textp{
+	margin-left:30px;
+	font: 23px/28px 'Open Sans',Arial,Helvetica,sans-serif;
+}
+.section-box .block .carousel {
+	margin-bottom:15px;
+}
+.block-place .place-area {
+	margin: 0 17px 0 0;
+}
+.sel_saving_form{
+	padding:4px;
+	
+}
+#ps_dental_admin .form-modules .row{
+	margin-left:0px;
+}
+#getwidgetcode{
+	width:98%;
+	height:100px;
+}
+.form-block form .row input[type="submit"] {
+	width:135px;
+}
+.articlesavebutton{
+	margin-top:10px;
+}
+.articlesubmitedmessage{
+	color:#FF0000;
+}
+#ps_dental_admin #twocolumns .chkwidget{
+	margin:0px 10px 3px 0px;
+}
+#ps_dental_admin .row .list .newcheckedbox{
+	margin-right:10px;
+}
+
+
+.left-block1 {
+    background: none repeat scroll 0 0 #9EC711;
+    float: left;
+    margin-right: 5px;
+   
+    width: 63.5%;
+}
+.editorclassarticle{
+	width: 90%;
+	height:500px;
+}
+.left-block1 .form-block{
+	padding-bottom:0px;
+}
+.createpatientgenerator{
+	padding:9px 18px 8px;
+	background: none repeat scroll 0 0 #FEAB00;
+    	border: 0 none;
+    	color: #FFFFFF;
+	float:left;
+    	font-size: 14px;
+    	height: 18px;
+    	text-transform: uppercase;
+	font-weight:bold;
+}
+
+
+.block-row h3 a{
+	text-decoration:none;
+	font-weight:bold;
+	font: 23px/28px 'Open Sans',Arial,Helvetica,sans-serif;
+}
+.block-row h3 a:hover{
+	text-decoration:underline;
+}
+.myacc_seemore_cls
+{
+	padding-bottom:15px;
+}
+.block-row .btnbtn {
+    background: none repeat scroll 0 0 #FFB133;
+    color: #FFFFFF;
+    float: right;
+    font: 700 14px/25px 'Open Sans Condensed',Arial,Helvetica,sans-serif;
+    padding: 0 9px;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+.block-row .btnbtn:hover {
+	text-decoration:underline;
+}
+.section-box .block a.btnbtn {
+    color: #FFFFFF;
+}
+.purchase_dayremaing{
+	width:80%;
+}
+
+#ps_dental_admin .emailtextinput{
+	width:44%;
+	height:auto;
+	padding:4px;
+	line-height:normal;
+	display:inline-block;
+	/*box-shadow:0 1px 3px rgba(0, 0, 0, 0.1) inset;
+	transition:border 0.2s linear 0s, box-shadow 0.2s linear 0s;*/
+	font-size:13px;
+}
+
+/* bx slider for my account */
+.bx-wrapper {
+	margin-bottom: 5px;
+}
+.bx-wrapper .bx-viewport {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	/*	-moz-box-shadow: 0 0 5px #ccc;
+	-webkit-box-shadow: 0 0 5px #CCC;
+	box-shadow: 0 0 5px #CCC;*/
+}
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	top: 58%;
+	margin-top: -16px;
+	width: 20px;
+	height: 22px;
+	text-indent: -9999px;
+	z-index: 99;
+}
+.bx-wrapper .bx-next, .bx-wrapper .bx-next:hover {
+	right: -40px;
+	/*background: url(images/arrow.png) no-repeat 0 0 transparent;*/
+	background-image: url(../images/arrow11.png);
+	background-repeat:  no-repeat;
+	background-attachment: scroll;
+	background-position: 0  0px;
+	background-color:  transparent; 
+}
+
+.bx-wrapper .bx-prev,.bx-wrapper .bx-prev:hover {
+	left: -40px;
+	/*background: url(images/arrow.png) no-repeat scroll 0  -22px transparent; */
+	background-image: url(../images/arrow11.png);
+	background-repeat:  no-repeat;
+	background-attachment: scroll;
+	background-position: 0  -22px;
+	background-color:  transparent; 
+}
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: block;
+	background-image: url(../images/arrow-light.png);
+}
+.ps_section_box .alert-box{
+	background: url(../images/exclaimation_mark_icon.png) no-repeat;
+}
+.office_staff{
+	height:150px;
+	margin-top:30px;
+}
+/*.ps_section_box .image-holder img {
+    display: block;
+    height: 137px;
+    margin: 0 0 16px;
+    max-width: 137px;
+    width: 137px;
+}*/
+.ps_section_box .heading-place h3{
+	margin-bottom:20px;
+}
+.ps_section_box .ps_block_place{
+	height:555px;
+}
+.ps_section_box .ps_column1{
+	height:425px;
+}
+.ps_section_box .ps_column2{
+	height:150px;
+}
+
