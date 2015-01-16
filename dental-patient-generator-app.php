@@ -146,7 +146,7 @@ Author URI: http://www.dentaloptimizer.com
 		$ps_widgetcolor=$ps_dwc_plugin_options['color'];
 		
 		ob_start();
-		if($ps_widgetid=='')
+		if($ps_widgetid=='' || $ps_widgetid=='0')
 		{
 			echo '<div>Please setup plugin in admin section.</div>';
 		}
